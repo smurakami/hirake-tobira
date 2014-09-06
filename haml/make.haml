@@ -17,11 +17,12 @@
   / %script{:src => "js/init.js"}
 %body
   #container
-    %section#top
+    %section#about
       %h1 トビラをつくる
-    / %section#about
-    /   %h1.title
-    /     %img{src: 'img/about-title.png', width: '800px', height: 'auto'}
-    /   .description
-    /     %p 中学生が学校の外に「もう一つの世界」を持ち、その世界と行き来できるようにする活動です。
-    /     %p 一緒に広い世界に冒険に出てみませんか。
+      %img#about-door{src: 'img/maker-door.png'}
+      .description
+        %p 新しい民間サークルを作りたい人が中学生に告知をできるようにします。
+    %section#footer
+      %a{href: "."}<
+        %img{src: 'img/footer-door.png'}
+      %p hirake tobira project

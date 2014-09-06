@@ -43,7 +43,9 @@ h1 {
   padding: 20px; }
   #about h1 {
     margin: 20px;
-    text-align: center; }
+    text-align: center;
+    color: white;
+    font-size: 50px; }
   #about .description {
     margin: 40px 20px; }
     #about .description p {
