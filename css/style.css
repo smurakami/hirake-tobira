@@ -44,11 +44,17 @@ h1 {
   #about h1 {
     margin: 20px;
     text-align: center; }
-  #about p {
-    margin: 40px 20px;
-    font-size: 20px;
-    color: white;
-    text-align: center; }
+  #about .description {
+    margin: 40px 20px; }
+    #about .description p {
+      font-size: 20px;
+      color: white;
+      text-align: center; }
+  #about img#about-door {
+    display: block;
+    margin: 0 auto;
+    width: 800px;
+    height: auto; }
 
 #doors {
   background-color: #ecf0f1;

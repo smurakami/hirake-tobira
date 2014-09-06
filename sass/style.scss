@@ -47,11 +47,19 @@ h1 {
     margin: 20px;
     text-align: center;
   }
-  p {
+  .description {
     margin: 40px 20px;
-    font-size: 20px;
-    color: white;
-    text-align: center;
+    p {
+      font-size: 20px;
+      color: white;
+      text-align: center;
+    }
+  }
+  img#about-door {
+    display: block;
+    margin: 0 auto;
+    width: 800px;
+    height: auto;
   }
 }
 
